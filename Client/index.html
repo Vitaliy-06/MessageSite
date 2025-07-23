@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MessageSite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+        <div id="header-user">
+
+        </div>
+    </header>
+    <div class="container">
+        <div id="auth-section">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email"><br>
+            <input type="password" id="login-password" placeholder="Password"><br>
+            <button id="btn-login">Login</button>
+
+            <h2>Register</h2>
+            <input type="email" id="register-email" placeholder="Email"><br>
+            <input type="password" id="register-password" placeholder="Password"><br>
+            <button id="btn-register">Register</button>
+        </div>
+        <div class="first">
+            <ul id="user-list">
+
+            </ul>
+        </div>
+        <div class="second">
+            <div class="message-header">
+                Choose user
+            </div>
+            <div class="message-main">
+
+            </div>
+            <div class="message-footer">
+                <form>
+                    <input type="text" id="textBox" placeholder="Type your message..." disabled />
+                    <input type="button" id="btnSend" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="config.js"></script>
+    <script src="service.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

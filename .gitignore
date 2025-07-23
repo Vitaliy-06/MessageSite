@@ -1,0 +1,42 @@
+# Visual Studio IDE
+Server/MessageSiteAPI/.vs/
+Server/MessageSiteAPI/*.user
+Server/MessageSiteAPI/*.suo
+
+# Build results
+Server/MessageSiteAPI/bin/
+Server/MessageSiteAPI/obj/
+Server/MessageSiteAPI/[Bb]uild/
+Server/MessageSiteAPI/[Ll]og/
+Server/MessageSiteAPI/*.log
+
+# User-specific files
+Server/MessageSiteAPI/*.userprefs
+
+# IIS Express
+Server/MessageSiteAPI/.vscode/
+Server/MessageSiteAPI/.vscode/*
+Server/MessageSiteAPI/*.vscode
+Server/MessageSiteAPI/*.vspscc
+Server/MessageSiteAPI/*.vssscc
+Server/MessageSiteAPI/*.dbmdl
+Server/MessageSiteAPI/*.jfm
+
+# Temporary files
+Server/MessageSiteAPI/*.tmp
+Server/MessageSiteAPI/*.temp
+Server/MessageSiteAPI/*.cache
+
+# Rider IDE (якщо ти колись використаєш JetBrains)
+Server/MessageSiteAPI/.idea/
+Server/MessageSiteAPI/*.sln.iml
+
+# NuGet
+Server/MessageSiteAPI/packages/
+Server/MessageSiteAPI/*.nupkg
+Server/MessageSiteAPI/project.lock.json
+Server/MessageSiteAPI/project.fragment.lock.json
+Server/MessageSiteAPI/artifacts/
+
+# ASP.NET specific
+Server/MessageSiteAPI/wwwroot/lib/
